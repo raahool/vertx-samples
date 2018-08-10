@@ -1,0 +1,24 @@
+{{> html/head}}
+<main>
+<form action="login" method="post">
+	<fieldset>
+		<legend>Welcome to Optimum Console. Please Log In</legend>
+		<div>
+			<label for="UserName">User Name:</label> <input type="text"
+				id="userName" name="userName" autocomplete="off"
+				placeholder="Enter Your Username">
+		</div>
+
+		<div>
+			<label for="Password">Password:</label> <input type="password"
+				id="password" name="password" autocomplete="off"
+				placeholder="Enter Your Password">
+		</div>
+
+		<div class="button">
+			<button type="submit">Log in</button>
+		</div>
+	</fieldset>
+</form>
+</main>
+{{> html/footer}}

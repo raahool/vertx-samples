@@ -1,0 +1,55 @@
+* {
+	/* border: 1px solid black; */
+	padding: .2em;
+	margin: .2em;
+}
+
+form {
+	margin-left: 24%;
+	width: 50%;
+}
+
+form fieldset {
+	border: 1px solid #CCC;
+	border-radius: 1em;
+}
+
+form fieldset legend {
+	font-family: cursive;
+	font-size: medium;
+	width: auto;
+	margin: 1em;
+}
+
+label {
+	width: 32%;
+	text-align: right;
+}
+
+input, textarea {
+	font: 1em sans-serif;
+	width: 65%;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+	border-color: #000;
+}
+
+.button {
+	float: right;
+	padding-right: .8em;
+}
+
+header {
+	text-align: center;
+	width: auto;
+	font-size: xx-large;
+}
+
+footer {
+	text-align: center;
+	width: auto;
+}
